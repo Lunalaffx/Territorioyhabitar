@@ -675,6 +675,7 @@ main {
 		backdrop-filter: blur( 11.0px );
 		-webkit-backdrop-filter: blur( 11.0px );
 		border-radius: 10px;
+		font-size: 15px;
 
 		
 		
