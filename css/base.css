@@ -222,8 +222,9 @@ body {
 	--color-toggle: rgb(255, 255, 255);
 	--color-title-full: #aaa;
 	--color-description-full: #38005e;
-	--color-lines: #9073fa;
+	--color-lines: #b8a6f8;
 	font-family: 'MuseoModerno', cursive;
+	font-size: 15px;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
@@ -340,6 +341,7 @@ main {
 	
 }
 
+
 .side {
 	font-size: 0.85rem;
 	color: var(--color-side-text);
@@ -354,6 +356,9 @@ main {
 	font-weight: normal;
 	color:rgb(133, 114, 114)
 	
+}
+.description{
+	padding: 2cm;
 }
 
 .title {
@@ -587,7 +592,8 @@ main {
 	.grid__item-title span,
 	.grid__item-number span {
 		display: block;
-		color: #ff2c48;
+		color: #591e68;
+		text-shadow: 2px 0.2px rgb(186, 236, 248);
 	}
 	.grid__item-title {
 		position: absolute;
@@ -693,4 +699,20 @@ main {
 		height: 100vh;
 		background: var(--color-revealer);
 	}
+
+
+	.title-wrap {
+		column-count: 3;
+		column-gap: 40px;
+		column-rule: 1px solid #a0477b;
+	}
+	blockquote{
+		background-color: rgb(253, 133, 203);
+		color: #ff2c48;
+		z-index: 999;
+		width: 10cm;
+	}
+
+
+
 }
